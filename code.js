@@ -13,6 +13,9 @@ demo1:
  * @param { Array } nums
  * @return { Array }
  */
+let a = [-1,2,1,5,6,1,1,0,0,-2,-3]
+console.log(threeSum(a))
+
 function threeSum(nums) {
     const rel = [];
 
